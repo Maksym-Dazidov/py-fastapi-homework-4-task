@@ -11,7 +11,6 @@ from validation import (
 )
 
 
-
 class ProfileCreateSchema(BaseModel):
     first_name: str
     last_name: str

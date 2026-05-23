@@ -52,6 +52,7 @@ class Settings(BaseAppSettings):
 
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
+
 class TestingSettings(BaseAppSettings):
     SECRET_KEY_ACCESS: str = "SECRET_KEY_ACCESS"
     SECRET_KEY_REFRESH: str = "SECRET_KEY_REFRESH"
